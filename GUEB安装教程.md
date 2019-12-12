@@ -8,7 +8,11 @@ GUEB是法国一篇博士论文中实现的一个面向二进制的UAF静态检�
 
 ![Architecture](media/be71b359a875d6362cb20c3da96232ea.png)
 
+Architecture
+
 本图是来自作者原文
+
+![](media/218a87a8e7f2d3634f0f8a3baf2ef3ef.png)
 
 根据理解自己画的图
 
@@ -37,6 +41,8 @@ GUEB：仅能在ubuntu上运行，需要BinNavi API和postgresql数据库支持�
 6.4和IDA 7
 free），直接配置一个ubuntu环境的BinNavi行不通。但是在windows上有可用的IDA
 6.8，能够搭建windows环境下的BinNavi。因此想到前后端在不同操作系统上运行，使用共享postgresql数据库的方式将其连接起来。如图所示。
+
+![](media/4886433fab680e1a07676543c3b08454.png)
 
 基于共享数据库搭建跨操作系统的GUEB
 
